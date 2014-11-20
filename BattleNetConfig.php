@@ -55,8 +55,6 @@ class BattleNet_Config extends Google_Config {
   public function __construct($region = self::REGION_US, $ini_file_location = null) {
     parent::__construct($ini_file_location);
     $this->setAuthClass(self::AUTH_CLASS);
-    $this->setCacheClass('Google_Cache_Null');
-    
     $this->setRegion($region);
   }
   
