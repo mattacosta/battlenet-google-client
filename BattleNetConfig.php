@@ -21,7 +21,7 @@
  * used with a Google_Client object.
  */
 class BattleNet_Config extends Google_Config {
-  const LIBVER = '1.0.0-beta';
+  const LIBVER = '1.0.0';
   
   const AUTH_CLASS = 'BattleNet_Auth_OAuth2';
   
